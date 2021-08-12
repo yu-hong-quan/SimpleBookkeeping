@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_f3f3f3"
+    >
+    <!--  顶部标题栏  -->
+    <RelativeLayout
+        android:id="@+id/main_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white_fff"
+        >
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+        <ImageView
+            android:id="@+id/main_iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/search"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            />
+    </RelativeLayout>
+    <!--  主体内容栏  -->
+    <ListView
+        android:id="@+id/main_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_top_layout"
+        android:background="@color/grey_f3f3f3"
+        android:divider="@null"
+        android:dividerHeight="6dp"
+        android:padding="10dp"
+        android:scrollbars="none" />
+    <!--  右下角两个按钮  -->
+    <ImageButton
+        android:id="@+id/main_btn_more"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/more"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/main_morebtn_bg"/>
+
+    <Button
+        android:id="@+id/main_btn_edit"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/main_btn_more"
+        android:layout_toLeftOf="@id/main_btn_more"
+        android:background="@drawable/main_recordbtn_bg"
+        android:drawableLeft="@mipmap/edit"
+        android:gravity="center_vertical"
+        android:text="@string/editone"
+        android:textColor="@color/white_fff"
+        android:textStyle="bold"
+
+        />
+</RelativeLayout>

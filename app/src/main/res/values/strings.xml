@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">简约记账</string>
+    <string name="editone">记一笔...</string>
+    <string name="month_out">本月支出</string>
+    <string name="month_in">本月收入</string>
+    <string name="budget">预算剩余</string>
+    <string name="see_Excel">查看图表分析</string>
+</resources>
