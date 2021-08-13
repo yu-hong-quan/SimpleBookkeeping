@@ -5,4 +5,6 @@
     <string name="month_in">本月收入</string>
     <string name="budget">预算剩余</string>
     <string name="see_Excel">查看图表分析</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

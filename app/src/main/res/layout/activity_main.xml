@@ -29,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:src="@mipmap/search"
+            android:onClick="searchClick"
             android:layout_alignParentRight="true"
             android:padding="10dp"
             />
@@ -50,6 +51,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:src="@mipmap/more"
+        android:onClick="moreClick"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
@@ -61,6 +63,7 @@
         android:layout_height="40dp"
         android:layout_alignBottom="@id/main_btn_more"
         android:layout_toLeftOf="@id/main_btn_more"
+        android:onClick="editClick"
         android:background="@drawable/main_recordbtn_bg"
         android:drawableLeft="@mipmap/edit"
         android:gravity="center_vertical"
